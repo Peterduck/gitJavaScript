@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+                let user = {
+            name: "My Name",
+            age: 30,
+            is_admin: true,
+            data:[
+            [1,2,3],
+            [2,3,4],
+        ],
+        object: {
+            'Java' : 'buoi 12',
+            'Javascript': 'buoi 12.1',
+        }
+    };
+            let fruit = prompt('Favorite fruit','apple');
+            let obj = {
+                [fruit]: 5,
+                fruit : 10,
+            }
+            console.log(obj,'=====',obj.apple);
+
+            for(ler key in user){
+                document.writeln(user[key] + '<br>');
+            }
+        </script>
+    </body>
+    <footer></footer>
+</html>
