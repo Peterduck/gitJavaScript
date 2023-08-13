@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<h1>In ngày tháng năm hiện tại </h1>
+<h4 style="background-color: aqua; justify-content: center">Result</h4>
+<script>
+  let date = new Date();
+  document.writeln("mm-dd-yyyy: " + (date.getMonth()+1) + "-"+ date.getDate() + + "-" + date.getFullYear());
+  document.writeln("mm/dd/yyyy: "  +(date.getMonth()+1) + "/"+ date.getDate() + + "/" + date.getFullYear());
+  document.writeln("dd-mm-yyyy: " + date.getDate() + "-"+(date.getMonth()+1) + "-" + date.getFullYear());
+  document.writeln("dd/mm/yyyy: " + date.getDate() + "/"+(date.getMonth()+1) + "/" + date.getFullYear());
+</script>
+</body>
+</html>
